@@ -24,8 +24,8 @@ import (
 	"strconv"
 
 	log "github.com/sirupsen/logrus"
-	"go.etcd.io/etcd/client"
-	etcd "go.etcd.io/etcd/client"
+	"go.etcd.io/etcd/v3/client"
+	etcd "go.etcd.io/etcd/v3/client"
 	"golang.org/x/net/context"
 
 	"github.com/projectcalico/libcalico-go/lib/backend/api"

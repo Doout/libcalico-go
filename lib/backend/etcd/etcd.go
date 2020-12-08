@@ -22,9 +22,9 @@ import (
 	"time"
 
 	log "github.com/sirupsen/logrus"
-	etcd "go.etcd.io/etcd/client"
-	"go.etcd.io/etcd/pkg/srv"
-	"go.etcd.io/etcd/pkg/transport"
+	etcd "go.etcd.io/etcd/v3/client"
+	"go.etcd.io/etcd/v3/pkg/srv"
+	"go.etcd.io/etcd/v3/pkg/transport"
 	"golang.org/x/net/context"
 
 	v1 "github.com/projectcalico/libcalico-go/lib/apis/v1"

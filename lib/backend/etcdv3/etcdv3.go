@@ -25,9 +25,9 @@ import (
 	"crypto/tls"
 
 	log "github.com/sirupsen/logrus"
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/pkg/srv"
-	"go.etcd.io/etcd/pkg/transport"
+	"go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/pkg/srv"
+	"go.etcd.io/etcd/v3/pkg/transport"
 
 	"github.com/projectcalico/libcalico-go/lib/apiconfig"
 	apiv3 "github.com/projectcalico/libcalico-go/lib/apis/v3"
